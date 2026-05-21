@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.yourlastname.lab4mobile.HomeFragment"
+        android:label="Главная"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/coffeeFragment"
+        android:name="com.yourlastname.lab4mobile.CoffeeFragment"
+        android:label="Кофейни"
+        tools:layout="@layout/fragment_coffee" />
+
+    <fragment
+        android:id="@+id/parksFragment"
+        android:name="com.yourlastname.lab4mobile.ParksFragment"
+        android:label="Парки"
+        tools:layout="@layout/fragment_parks" />
+
+    <fragment
+        android:id="@+id/restaurantsFragment"
+        android:name="com.yourlastname.lab4mobile.RestaurantsFragment"
+        android:label="Рестораны"
+        tools:layout="@layout/fragment_restaurants" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.yourlastname.lab4mobile.AboutFragment"
+        android:label="О приложении"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/placeDetailFragment"
+        android:name="com.yourlastname.lab4mobile.PlaceDetailFragment"
+        android:label="Детали места"
+        tools:layout="@layout/fragment_place_detail" />
+
+</navigation>

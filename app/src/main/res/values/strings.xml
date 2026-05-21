@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Lab4Mobile</string>
+    <string name="open_drawer">Открыть меню</string>
+    <string name="close_drawer">Закрыть меню</string>
+    <string name="place_icon_description">Иконка места</string>
 </resources>
