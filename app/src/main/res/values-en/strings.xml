@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab1Mobile</string>
+    <string name="student_name">Bakhtina Alina</string>
+    <string name="student_group">B23-191-1z</string>
+    <string name="student_role">Android Developer</string>
+    <string name="student_email">✉ Ballinaa@yandex.ru</string>
+    <string name="android_logo_description">Android logo</string>
+</resources>
