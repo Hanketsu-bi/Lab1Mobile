@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color"
-    android:padding="24dp"
+    android:padding="@dimen/screen_padding"
     tools:context=".MainActivity">
 
     <ImageView
@@ -66,7 +66,7 @@
         android:id="@+id/emailTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="@dimen/large_margin"
         android:text="@string/student_email"
         android:textSize="@dimen/small_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
